@@ -1,0 +1,151 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+/*BEGIN OWN CODE*/
+
+
+
+
+body{
+	width: 960px;
+	background: #ffffff url("background.jpg");
+	background-position: center top;
+  	background-repeat:repeat-x; 
+  	background-color: #D6D6D6;
+	margin:0 auto;
+	font-family: arial;
+	line-height: 20px
+}
+
+
+header{
+	text-align: center;
+	padding:40px;
+}
+
+h2{
+	font-size: 20px;
+	margin-top: 20px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+#blog_content{
+	background-color: #ffffff;
+	float: left;
+	width: 600px;
+	padding: 15px;
+}
+
+#blog_content a{
+	color:#FF7300;
+	text-decoration: none;
+}
+
+.blog-post{
+	margin: 10px 0px 10px 0;
+}
+
+.blog-post img{
+	margin-bottom: 25px;
+}
+
+.blog-details{
+	border-top: solid #cccccc 1px;
+	border-bottom: solid #000000 2px;
+	padding: 10px 0px 10px 0;
+	margin-bottom: 35px;
+}
+
+#sidebar{
+	background-color: #ffffff;
+	float: left;
+	width: 220px;
+	margin-left: 10px;
+	padding: 20px;
+	color:#000000;
+}
+
+.sidebar-list{
+	font-weight: bold;
+	line-height: 20px;
+	margin:25px 0 25px 0;
+}
+
+#sidebar a{
+	color:#000000;
+	text-decoration: none;
+}
+
+#sidebar a:hover{
+	color:#FF7300;
+}
+
+#sidebar img{
+	padding: 10px 0px 10px 0px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+footer{
+	width: 960px;
+	float: left;
+	text-align: center;
+	padding: 20px;
+}
+
+ .social-links{
+	margin-right: 30px;
+ }
+
